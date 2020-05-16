@@ -17,19 +17,19 @@ router.post("/login", async function (req, res) {
   res.json(result);
 });
 
-router.get("/auth", (req, res) => {
-  if (req.user) res.json(true);
-  else res.json(false);
-});
+// router.get("/auth", (req, res) => {
+//   if (req.user) res.json(true);
+//   else res.json(false);
+// });
 
 //   console.log({ result });
 //   res.json(result);
 // });
 
-router.post("/login", passport.authenticate("local"), function (req, res) {
-  // If this function gets called, authentication was successful.
-  // `req.user` contains the authenticated user.
-  res.send("success");
-});
+// router.post("/login", passport.authenticate("local"), function (req, res) {
+//   // If this function gets called, authentication was successful.
+//   // `req.user` contains the authenticated user.
+//   res.send("success");
+// });
 
 module.exports = router;

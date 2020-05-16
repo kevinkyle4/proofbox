@@ -37,7 +37,7 @@ const Login = (props) => {
   };
 
   return redirect ? (
-    <Redirect to="/home" />
+    <Redirect to="/demo" />
   ) : (
     <div className="login-page">
       <div className="logo-login">
