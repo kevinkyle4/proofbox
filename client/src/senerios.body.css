@@ -1,19 +1,32 @@
 .nonUser {
-    width: 300px;
-    height: 300px;
-    background-color: red;
+  /* width: 300px; */
+  height: 740px;
+  background-color: lightgrey;
 }
 .proofBoxUser {
-    width: 300px;
-    height: 300px;
-    background-color: lightgreen;
+  /* width: 300px; */
+  height: 740px;
+  background-color: lightgrey;
 }
-.nonUserImg, .userImg {
-    margin: 10px;
-    border: black double 5px;
-    border-radius: 45px;
+.userImg {
+  margin: 10px;
+  border: rgb(218, 216, 216) double 5px;
+  border-radius: 180px;
+}
+.nonUserImg {
+  margin: 10px;
+  border: rgb(218, 216, 216) outset 5px;
+  border-radius: 5px;
 }
 .seneriosTitle {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Fredoka One", cursive;
+}
+.card-shadow {
+  box-shadow: 0 29px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.userText {
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
 }

@@ -1,7 +1,12 @@
 h1 {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Fredoka One", cursive;
 }
 .aboutText {
-    padding: 15px;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+}
+.colored {
+  background-color: lightgrey;
 }

@@ -18,14 +18,16 @@ const App = () => {
         <Header />
         <div>
           <Switch>
-            <Route path="/" exact>
+            <Route path="/home" exact>
               <Home />
             </Route>
             <Route path="/login">
               <Login />
             </Route>
             <Route path="/signup">
-              <Login />
+              <Signup />
+            </Route>
+            <Route path="/">
               <DemoContainer />
               <InfoContainer />
               <SeneriosContainer />

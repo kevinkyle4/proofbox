@@ -1,11 +1,33 @@
 .uploadBox {
-    width: 300px;
-    height: 300px;
-    background: yellow;
-    display: flex;
-    align-items: center;
+  width: 300px;
+  height: 300px;
+  background: yellow;
+  display: flex;
+  align-items: center;
 }
 .demoImg {
-    border: solid black 5px;
-    border-radius: 5px;
+  border: solid black 5px;
+  border-radius: 5px;
+}
+
+.mb-4 {
+  display: flex;
+  justify-content: center;
+}
+.try-now {
+  width: 90px;
+  border-radius: 5px;
+  border: 0;
+  display: flex;
+  color: white;
+  justify-content: center;
+  height: 58px;
+  margin-left: 15px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 2px rgba(252, 252, 252, 0.3);
+  background: linear-gradient(
+    45deg,
+    rgb(17, 97, 15) 30%,
+    rgb(136, 117, 113) 90%
+  );
 }

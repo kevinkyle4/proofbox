@@ -1,28 +1,25 @@
 import React from "react";
 import "./info.body.css";
-
 const InfoContainer = () => {
-
-    return (
-       <div className="infoBox">
-           <div col-12>
-               <section className="aboutText">
-                   <h1>proofBox?</h1>
-             <p>proofBox is simply dummy text of the printing and typesetting industry.
-               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-               It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-               </p>
-               <p>proofBox is simply dummy text of the printing and typesetting industry.
-               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-               It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-               It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-               </p>
-               </section>
-           </div>
-          
-       </div>
-    )
-}
-
+  return (
+    <div className="container-fluid colored">
+      <div className="row">
+        <div className="col-12">
+          <div className="d-flex justify-content-center p-4">
+            <p className="aboutText">
+              Generally, you should hang on to tax records and receipts for
+              three years. But in some cases, longer. proofBox helps you keep
+              tabs on your expenses, and comes in handy if you ever get
+              sued/audited or simply need proof of something. All you need to do
+              is sanp a picture with your device and upload to our site, with a
+              few more steps your proof will be secure and ready to access when
+              needed.
+            </p>
+            <h1></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 export default InfoContainer;
