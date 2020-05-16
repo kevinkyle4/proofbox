@@ -11,7 +11,7 @@ import Vegas1 from "../images/vegas1.jpg";
 
 const tempUserId = "5eb1db49c60713417c30c8b7";
 
-const endpoint = "https://localhost:8000/api/receipt/add-receipt/" + tempUserId;
+const endpoint = "api/receipt/add-receipt/" + tempUserId;
 
 const Home = () => {
   const [userReceipts, setUserReceipts] = useState([]);
