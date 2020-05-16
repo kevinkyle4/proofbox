@@ -36,7 +36,7 @@ const DemoContainer = () => {
           <h1 className="mb-4">
             <div>For everything else proofBox has your back </div>
             <button className="try-now">
-              <Link to="home" id="mainLink">
+              <Link to="/" id="mainLink">
                 Try Now
               </Link>
             </button>

@@ -114,6 +114,7 @@ const Home = () => {
               <th>Date</th>
             </tr>
             {userReceipts.map((item, index) => {
+              console.log("item.name", item.name);
               return (
                 <tr className="receipt-individual">
                   <td style={{ fontWeight: "bold" }}> {item.receiptName}</td>
