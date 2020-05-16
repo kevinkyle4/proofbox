@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { useHistory, Redirect } from "react-router-dom";
 import userApi from "./api/userApi";
+import proofboxlogo from "./images/proofboxlogo.png";
 import "./Login.css";
 // import Auth from "../cookie/Auth";
 
@@ -41,7 +42,11 @@ const Login = (props) => {
   ) : (
     <div className="login-page">
       <div className="logo-login">
-        <img src="/images/engineerapilogo2.png" alt="document logo" />
+        <img
+          src={proofboxlogo}
+          style={{ height: "75px", width: "250px" }}
+          alt="document logo"
+        />
         <h2 className="logo-header">Login</h2>
       </div>
 
